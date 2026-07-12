@@ -6,6 +6,104 @@
     font-family: "Inter", sans-serif;
 }
 
-span {
-    color: red;
+/* Common Desgin */
+.container {
+    max-width: 1200px;
+    margin: auto;
+}
+
+.common-btn {
+    border: none;
+    padding: 15px 35px;
+    color: white;
+    background-color: #1D4ED8;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+img {
+    max-width: 100%;
+}
+
+/* Nav bar Design */
+.nav-bar {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0px;
+    align-items: center;
+}
+
+.nav-bar ul {
+    display: flex;
+    gap: 30px;
+}
+
+.nav-bar ul li {
+    list-style: none;
+}
+
+.nav-bar ul li a {
+    text-decoration: none;
+    color: #575757;
+}
+
+/* Hero Section */
+.hero-section {
+    background: linear-gradient(rgba(0, 0, 0, .5),
+            rgba(0, 0, 0, .5)),
+        url(../assets/banner.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+}
+
+.hero-section-content {
+    color: white;
+    padding-top: 190px;
+    text-align: center;
+
+}
+
+.hero-section-content h1 {
+    font-size: 79px;
+    padding: 20px 0px;
+}
+
+.hero-section-content p {
+    font-size: 25px;
+    padding: 20px 0px;
+    line-height: 1.5;
+}
+
+.hero-btn {
+    padding: 20px 45px;
+    font-size: 20px;
+    font-weight: 700;
+    margin-top: 100px;
+}
+
+/* Speakers section */
+
+.speaker-section{
+    padding-top: 100px;
+}
+.speaker-section h3{
+    font-size: 40px;
+    text-align: center;
+    padding-bottom: 70px;
+}
+
+.speaker-content{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+.speaker-content img{
+    border-radius: 16px 16px 0px 0px;
+}
+.speaker-content-box{
+    border: 1px solid red;
+    
+    border-radius: 16px;
 }
