@@ -21,6 +21,15 @@
     cursor: pointer;
 }
 
+.outline-btn {
+    padding: 10px 70px;
+    color: #2563EB;
+    border: 2px solid #2563EB;
+    border-radius: 8px;
+    background-color: white;
+    cursor: pointer;
+}
+
 img {
     max-width: 100%;
 }
@@ -85,25 +94,271 @@ img {
 
 /* Speakers section */
 
-.speaker-section{
+.speaker-section {
     padding-top: 100px;
 }
-.speaker-section h3{
+
+.speaker-section h3 {
     font-size: 40px;
     text-align: center;
     padding-bottom: 70px;
 }
 
-.speaker-content{
+.speaker-content {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 20px;
 }
-.speaker-content img{
+
+.speaker-content img {
     border-radius: 16px 16px 0px 0px;
 }
-.speaker-content-box{
-    border: 1px solid red;
-    
+
+.speaker-content-box {
+    border: 1px solid #E5E7EB;
     border-radius: 16px;
+    box-shadow: 0px 0px 20px rgb(221, 221, 221);
+}
+
+.speaker-content-box div {
+    padding: 20px;
+    line-height: 1.8;
+}
+
+.speaker-content-box h5 {
+    font-size: 17px;
+    font-weight: 700;
+    color: #0D1B2A;
+}
+
+.work {
+    color: #2563EB;
+    font-size: 10px;
+    font-weight: 700;
+}
+
+.designation {
+    font-size: 10px;
+    color: #575757;
+}
+
+/* Pricing section */
+
+.price-section {
+    margin: 100px auto;
+}
+
+.price-top-section {
+    text-align: center;
+    padding-bottom: 40px;
+}
+
+.price-top-section h3 {
+    font-size: 40px;
+    padding-bottom: 10px;
+}
+
+.price-top-section p {
+    color: #575757;
+    font-size: 14px;
+}
+
+.price-box {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+
+}
+
+.price-card {
+    border: 1px solid #E5E7EB;
+    padding: 32px;
+    border-radius: 10px;
+}
+
+.card-name {
+    font-size: 12px;
+    font-weight: 700;
+    color: #888888;
+}
+
+.card-price {
+    font-size: 30px;
+    font-weight: 800;
+    padding-top: 5px;
+}
+
+.card-person {
+    font-size: 12px;
+    color: #888888;
+    padding: 5px 0px 20px 0px;
+}
+
+hr {
+    margin-bottom: 20px;
+    border: none;
+    border-top: 1px solid #E5E7EB;
+}
+
+.price-card button {
+    margin-top: 20px;
+    width: 100%;
+    font-weight: 700;
+}
+
+.price-card ul {
+    padding-left: 20px;
+    line-height: 2;
+    color: #333333;
+}
+
+.price-card li::marker {
+    color: #2563EB;
+}
+
+.highlight {
+    background-color: #0D1B2A;
+    color: white;
+    box-shadow: 0px 0px 20px gray;
+    border: #0D1B2A;
+}
+
+.highlight ul {
+    color: #ebebeb;
+    font-weight: 400;
+}
+
+.highlight .special {
+    color: #93C5FD;
+}
+
+.highlight hr {
+    border-top: 1px solid #646464;
+}
+
+/* AI geenerated Section */
+
+.experience-section {
+    margin-top: 100px;
+    padding: 80px 0;
+    background-color: #F9FAFB;
+}
+
+.section-title {
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.section-title h2 {
+    font-size: 40px;
+    font-weight: 800;
+    color: #111827;
+    margin-bottom: 15px;
+}
+
+.section-title p {
+    font-size: 16px;
+    color: #6B7280;
+    max-width: 650px;
+    margin: 0 auto;
+    line-height: 1.6;
+}
+
+.experience-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+}
+
+.experience-card {
+
+    background: white;
+    border: 1px solid #E5E7EB;
+    border-radius: 16px;
+    padding: 35px;
+    cursor: pointer;
+}
+
+.experience-card:hover {
+    box-shadow: 0 20px 35px rgba(0, 0, 0, .08);
+    border-color: #1D4ED8;
+}
+
+.icon {
+    width: 70px;
+    height: 70px;
+    background: #DBEAFE;
+    color: #1D4ED8;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    margin-bottom: 25px;
+}
+
+.experience-card h3 {
+    font-size: 24px;
+    color: #111827;
+    margin-bottom: 15px;
+}
+
+.experience-card p {
+    color: #6B7280;
+    line-height: 1.7;
+    font-size: 15px;
+}
+
+
+/* Footer Section */
+footer {
+    background-color: #0D1B2A;
+    padding: 100px 0 20px;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding-bottom: 30px;
+}
+
+.footer-left {
+    max-width: 400px;
+    line-height: 1.8;
+    color: white;
+}
+
+.social-icons {
+    display: flex;
+    gap: 20px;
+    font-size: 18px;
+}
+
+.social-icons i {
+    color: white;
+}
+
+.footer-left img {
+    padding-bottom: 10px;
+}
+
+.footer-right h5 {
+    color: white;
+    font-size: 22px;
+    padding-bottom: 15px;
+}
+
+.footer-bottom hr {
+    border: none;
+    margin: 20px 0px;
+    border-top: 1px solid rgb(65, 64, 64);
+
+}
+
+.footer-bottom {
+    color: white;
+    text-align: center;
+    font-size: 15px;
+
 }
